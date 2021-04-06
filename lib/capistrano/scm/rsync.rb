@@ -1,5 +1,3 @@
-require File.expand_path('rsync/version', __dir__)
-
 require 'capistrano/scm/plugin'
 
 class Capistrano::SCM::Rsync < Capistrano::SCM::Plugin
