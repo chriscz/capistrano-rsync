@@ -1,3 +1,5 @@
+require "capistrano/scm/plugin"
+
 module Capistrano
   module SCM
     class Rsync < Plugin
