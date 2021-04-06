@@ -1,3 +1,5 @@
+## Unreleased
+- Restructure to modern Capistrano SCM
 ## 1.4.0 (Jan 25, 2017)
 - Adds option to bypass clone stage.
 
@@ -35,7 +37,7 @@
 - Adds optional caching to `rsync_cache` directory on the server.
 
 ## 0.2.1 (Sep 1, 2013)
-- Fixes starting with no previous local repository cache.  
+- Fixes starting with no previous local repository cache.
   Note to self: Avoid writing code without integration tests.
 
 ## 0.2.0 (Sep 1, 2013)
