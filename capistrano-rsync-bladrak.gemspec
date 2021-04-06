@@ -1,8 +1,8 @@
-require File.expand_path("../lib/capistrano/rsync/version", __FILE__)
+require File.expand_path("../lib/capistrano/scm/rsync/version", __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = "capistrano-rsync-bladrak"
-  gem.version = Capistrano::Rsync::VERSION
+  gem.version = Capistrano::SCM::Rsync::VERSION
   gem.homepage = "https://github.com/Bladrak/capistrano-rsync"
   gem.summary = <<-end.strip.gsub(/\s*\n\s*/, " ")
     Increase deployment performance through rsync
