@@ -54,7 +54,7 @@ rsync_target = lambda do
     when "revision"
       target = fetch(:branch)
     else
-      target = "#{fetch(:git_remote)}/#{fetch(:branch)}"
+      target = [fetch(:git_remote), fetch(:branch).to_s].reject(&:blank?).join("/")
     end
   target
 end
